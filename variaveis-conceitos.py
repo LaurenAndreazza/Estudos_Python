@@ -3,7 +3,7 @@ meuamor = "madu, me diga"
 amordeMadu = float(input("Diga o quanto me ama:"))
 
 def calcular_amor(amordeMadu):
-
+    print(meuamor)
     if amordeMadu< 100:
         return "não me ama o suficiente"
     else:
