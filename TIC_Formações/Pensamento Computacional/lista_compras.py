@@ -39,8 +39,7 @@ def lista_compras():
                 continue
 
             quantidade = int(input("Digite a quantidade do produto: "))
-            if quantidade <= 0 or not isinstance(quantidade, int): 
-                #Verifica se a quantidade é um número inteiro positivo e retorna true
+            if quantidade <= 0 or not isinstance(quantidade, int):   #Verifica se a quantidade é um número inteiro positivo e retorna true
                 print("Quantidade inválida. Tente novamente.")
                 continue
 
